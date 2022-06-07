@@ -30,7 +30,7 @@ public class UserController {
         }
         return userList;
     }
-
+//Optional<User> returnUser = repository.findById(id);
     @GetMapping("/api/users/{id}")
     public User getUserById(@PathVariable Integer id) {
         User returnUser = repository.getById(id);
