@@ -1,4 +1,4 @@
-package com.technews.contoller;
+package com.technews.controller;
 
 import com.technews.model.Post;
 import com.technews.model.User;
